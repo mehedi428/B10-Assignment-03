@@ -19,18 +19,26 @@
     <!-- fontAwesome  -->
     <script src="https://kit.fontawesome.com/463fb763ef.js" crossorigin="anonymous"></script>
 
+    <!-- css style -->
+     <style>
+        .font {
+            font-family: "Manrope", serif;
+        }
+     </style>
+
 
 </head>
 
-<body class="">
+<body class="font">
 
     <!-- header section -->
-    <header class="max-w-[1440px] mx-auto lg:px-28 py-5 lg:pt-8 lg:pb-20 bg-gradient-to-b from-[#e6e4e4] to-[#FEFEFE]">
+    <header class=" max-w-[1440px] mx-auto lg:px-28 py-5 lg:pt-8 lg:pb-20 bg-gradient-to-b from-[#e6e4e4] to-[#FEFEFE]">
         <!-- nav section -->
         <nav class="flex justify-between items-center">
-            <div class="flex gap-3 items-center">
+            <div class="flex gap-1 ml-2 items-center">
+                <i class="fa-solid bg-[#99e443] w-8 h-8 flex justify-center items-center rounded-full text-2xl text-black fa-arrow-right-long"></i>
 
-                <h3 class="text-4xl ml-2 text-[#212121]">Rinterio</h3>
+                <h3 class="text-4xl ml-2 text-[#212121] font-bold"> Rinterio</h3>
             </div>
 
             <ul class="hidden lg:flex gap-8 text-xl  text-gray-500">
@@ -42,14 +50,13 @@
             </ul>
 
             <i
-                class="fa-solid bg-[#FFFFFF] absolute top-2 right-2 w-8 h-8 flex justify-center items-center rounded-full fa-bars lg:hidden md:hidden"></i>
+                class="fa-solid bg-[#FFFFFF] absolute top-6 right-2 w-8 h-8 flex justify-center items-center rounded-full fa-bars lg:hidden "></i>
 
             <div class=" hidden lg:flex gap-6 items-center">
-                <i
-                    class="fa-solid bg-[#FFFFFF] w-8 h-8 flex justify-center items-center rounded-full  fa-magnifying-glass"></i>
-                <i
-                    class="fa-solid bg-[#FFFFFF] w-8 h-8 flex justify-center items-center rounded-full fa-cart-shopping"></i>
-                <button class=" bg-[#99e443] text-black rounded-[32px] border-none px-6 py-2">Book Consult</button>
+                <i class="fa-solid bg-[#FFFFFF] w-8 h-8 flex justify-center items-center rounded-full  fa-magnifying-glass"></i>
+                <i class="fa-solid bg-[#FFFFFF] w-8 h-8 flex justify-center items-center rounded-full fa-cart-shopping"></i>
+                <button class=" bg-[#99e443] text-black rounded-[32px] text-nowrap border-none px-6 py-2">Book Consult
+                    <i class="fa-solid text-white bg-black rounded-full p-1 fa-arrow-right-long"></i></button>
             </div>
         </nav>
 
@@ -63,7 +70,7 @@
                 space with natural light.</p>
             <div class="flex justify-center ">
                 <button class=" bg-[#99e443] w-full lg:w-40 text-black rounded-[32px] border-none px-6 py-2">View
-                    Details</button>
+                    Details <i class="fa-solid   fa-arrow-right-long"></i></button>
             </div>
         </div>
 
@@ -79,7 +86,8 @@
             <div class="flex flex-col lg:flex-row gap-8 py-5 lg:py-20">
                 <div class="space-y-6 lg:w-[50%]">
                     <div class="text-center lg:text-left">
-                        <button class="px-5 py-2 bg-white border-none rounded-3xl">About US</button>
+                        <button class="px-5 py-2 bg-white border-none rounded-3xl"><i
+                                class="fa-solid fa-arrow-right-long"></i> About US</button>
                     </div>
                     <h1 class="text-4xl text-black text-center lg:text-left font-bold">We design thoughtful, liveable
                         spaces</h1>
@@ -131,7 +139,7 @@
                 <div class="flex flex-col justify-center items-center space-y-3">
                     <i class="fa-solid text-5xl fa-folder-open"></i>
                     <h1 class="text-4xl text-black font-bold">50+</h1>
-                    <p class="text-xl text-gray-500">Happy Client Review</p>
+                    <p class="text-xl text-gray-500">Work Departments</p>
                 </div>
 
 
@@ -139,7 +147,7 @@
 
                     <i class="fa-solid text-5xl fa-users"></i>
                     <h1 class="text-4xl text-black font-bold">35K+</h1>
-                    <p class="text-xl text-gray-500">Happy Client Review</p>
+                    <p class="text-xl text-gray-500">Our Happy Client</p>
                 </div>
 
 
@@ -147,7 +155,7 @@
                 <div class="flex flex-col justify-center items-center space-y-3">
                     <i class="fa-solid text-5xl fa-user"></i>
                     <h1 class="text-4xl text-black font-bold">305+</h1>
-                    <p class="text-xl text-gray-500">Happy Client Review</p>
+                    <p class="text-xl text-gray-500">Staff Members</p>
                 </div>
             </div>
         </section>
@@ -156,7 +164,8 @@
         <!-- section-3 -->
         <section class="bg-[#dddddd] p-4 lg:px-28 lg:py-20 space-y-6">
             <div class="flex justify-center ">
-                <button class="rounded-3xl px-5 py-1 bg-white">How we works</button>
+                <button class="rounded-3xl px-5 py-1 bg-white"><i class="fa-solid fa-arrow-right-long"></i> How we
+                    works</button>
             </div>
             <h1 class="text-4xl text-black text-center font-bold">Our Works Process</h1>
             <p class="text-xl text-gray-500 text-center">The barn house captivates with its blend of rustic charm and
@@ -194,18 +203,21 @@
         <!-- section-04 -->
         <section class="bg-[#dddddd] lg:bg-white p-4 lg:px-28 lg:py-20 space-y-6">
             <div class="flex justify-center ">
-                <button class="rounded-3xl px-5 py-1 bg-[#EEFCDF]">Explore our Latest works</button>
+                <button class="rounded-3xl px-5 py-1 bg-[#EEFCDF]"> <i class="fa-solid fa-arrow-right-long"></i> Explore
+                    our Latest works</button>
             </div>
             <h1 class="text-4xl text-black text-center font-bold">Our Latest Portfolio</h1>
-            <p class="text-xl text-gray-500 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+            <p class="text-xl text-gray-500 text-center">The barn house captivates with its blend of rustic charm and
+                modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
 
             <div class="flex flex-col lg:flex-row gap-5 ">
                 <div class="flex flex-col lg:flex-row border rounded-xl gap-5 p-5 w-full lg:max-w-[65%] bg-white">
                     <img src="assets/img1.png" alt="">
                     <div class="space-y-5">
                         <h1 class="text-3xl text-black font-bold">Commercial</h1>
-                        <p class="text-xl text-gray-500 ">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                        <h3 class="text-xl text-black font-bold">View Details</h3>
+                        <p class="text-xl text-gray-500 ">The barn house captivates with its blend of rustic charm and
+                            modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                        <h3 class="text-xl text-black font-bold">View Details <i class="fa-solid fa-arrow-right-long"></i></h3>
                     </div>
                 </div>
 
@@ -217,20 +229,21 @@
             </div>
 
             <div class="flex flex-col lg:flex-row gap-5">
-               <div class="flex flex-col-reverse lg:flex-row lg:max-w-[75%] gap-5">
-                <div class="border rounded-xl p-5 w-full  lg:max-w-[35%] bg-white">
-                    <img class="h-full w-full" src="assets/img3.png" alt="">
-                </div>
+                <div class="flex flex-col-reverse lg:flex-row lg:max-w-[75%] gap-5">
+                    <div class="border rounded-xl p-5 w-full  lg:max-w-[35%] bg-white">
+                        <img class="h-full w-full" src="assets/img3.png" alt="">
+                    </div>
 
-                <div class="flex flex-col lg:flex-row border rounded-xl gap-5 p-5 w-full lg:max-w-[65%] bg-white">
-                    <img src="assets/img4.png" alt="">
-                    <div class="space-y-5">
-                        <h1 class="text-3xl text-black font-bold">Commercial</h1>
-                        <p class="text-xl text-gray-500 ">The barn house captivates with its blend of rustic charm and modern. </p>
-                        <h3 class="text-xl text-black font-bold">View Details</h3>
+                    <div class="flex flex-col lg:flex-row border rounded-xl gap-5 p-5 w-full lg:max-w-[65%] bg-white">
+                        <img src="assets/img4.png" alt="">
+                        <div class="space-y-5">
+                            <h1 class="text-3xl text-black font-bold">Commercial</h1>
+                            <p class="text-xl text-gray-500 ">The barn house captivates with its blend of rustic charm
+                                and modern. </p>
+                            <h3 class="text-xl text-black font-bold">View Details <i class="fa-solid fa-arrow-right-long"></i></h3>
+                        </div>
                     </div>
                 </div>
-               </div>
 
 
                 <div class="border rounded-xl p-5 w-full  lg:max-w-[25%] bg-white">
@@ -242,12 +255,14 @@
 
 
         <!-- section-05 -->
-         <section class="bg-[#dddddd] p-4 lg:px-28 lg:py-20 space-y-6">
+        <section class="bg-[#dddddd] p-4 lg:px-28 lg:py-20 space-y-6">
             <div class="flex justify-center ">
-                <button class="rounded-3xl px-5 py-1 bg-[#EEFCDF]">Rinterio News</button>
+                <button class="rounded-3xl px-5 py-1 bg-[#EEFCDF]"><i class="fa-solid fa-arrow-right-long"></i> Rinterio
+                    News</button>
             </div>
             <h1 class="text-4xl text-black text-center font-bold">Read Our Articles and News</h1>
-            <p class="text-xl text-gray-500 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+            <p class="text-xl text-gray-500 text-center">The barn house captivates with its blend of rustic charm and
+                modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
 
             <div class="flex flex-col lg:flex-row gap-5">
                 <div class="bg-white p-5  gap-5 rounded-2xl">
@@ -259,9 +274,10 @@
                             <i class="fa-solid fa-user"></i>
                             <p>By Admin</p>
                         </div>
-                        <h3 class="text-2xl text-black font-bold">How to choose the furniture right  of your home.</h3>
-                        <p class="text-xl text-gray-500 ">The barn house captivates with its blend of rustic charm and modern. </p>
-                        <h3 class="text-2xl text-black font-bold">Read More</h3>
+                        <h3 class="text-2xl text-black font-bold">How to choose the furniture right of your home.</h3>
+                        <p class="text-xl text-gray-500 ">The barn house captivates with its blend of rustic charm and
+                            modern. </p>
+                        <h3 class="text-2xl text-black font-bold">Read More <i class="fa-solid fa-arrow-right-long"></i></h3>
                     </div>
                 </div>
                 <div class="bg-white p-5  gap-5 rounded-2xl">
@@ -273,9 +289,10 @@
                             <i class="fa-solid fa-user"></i>
                             <p>By Admin</p>
                         </div>
-                        <h3 class="text-2xl text-black font-bold">How to choose the furniture right  of your home.</h3>
-                        <p class="text-xl text-gray-500 ">The barn house captivates with its blend of rustic charm and modern. </p>
-                        <h3 class="text-2xl text-black font-bold">Read More</h3>
+                        <h3 class="text-2xl text-black font-bold">How to choose the furniture right of your home.</h3>
+                        <p class="text-xl text-gray-500 ">The barn house captivates with its blend of rustic charm and
+                            modern. </p>
+                        <h3 class="text-2xl text-black font-bold">Read More <i class="fa-solid fa-arrow-right-long"></i></h3>
                     </div>
                 </div>
                 <div class="bg-white p-5  gap-5 rounded-2xl">
@@ -287,93 +304,105 @@
                             <i class="fa-solid fa-user"></i>
                             <p>By Admin</p>
                         </div>
-                        <h3 class="text-2xl text-black font-bold">How to choose the furniture right  of your home.</h3>
-                        <p class="text-xl text-gray-500 ">The barn house captivates with its blend of rustic charm and modern. </p>
-                        <h3 class="text-2xl text-black font-bold">Read More</h3>
+                        <h3 class="text-2xl text-black font-bold">How to choose the furniture right of your home.</h3>
+                        <p class="text-xl text-gray-500 ">The barn house captivates with its blend of rustic charm and
+                            modern. </p>
+                        <h3 class="text-2xl text-black font-bold">Read More <i class="fa-solid fa-arrow-right-long"></i></h3>
                     </div>
                 </div>
             </div>
 
-         </section>
+        </section>
 
 
-         <!-- section-06 -->
-          <section class="bg-white p-4 lg:px-28 lg:py-20 space-y-6">
+        <!-- section-06 -->
+        <section class="bg-white p-4 lg:px-28 lg:py-20 space-y-6">
             <h1 class="text-4xl text-black text-center font-bold">Design Solutions</h1>
-            <p class="text-xl text-gray-500 text-center">From garden rooms and studios to rural barns and cottages, we have a range of <br> nominal designs to suit every need, purpose and vision. </p>
-            
-           <div class="flex flex-col lg:flex-row pt-6  gap-5">
-            <div class=" bg-[#dddddd] p-5 rounded-2xl">
-                <img class="max-h-[350px] w-full mb-4 rounded-2xl" src="assets/pic-1.webp" alt="">
-               <div class="space-y-3">
-                <h1 class="text-4xl text-black font-bold">Garden Buildings</h1>
-                <h3 class="text-3xl text-black font-medium">The extra space you dream of</h3>
-                <p class="text-xl text-gray-500">Our creative customers have transformed their Melwood garden rooms into everything from tiny homes, granny flat or guest accommodation, pool cabanas, art studios, workshops, home offices, teen or parent retreats, laundries and so much more.
-                What would you do?</p>
-                <div class="flex justify-center ">
-                    <button class="rounded-3xl px-5 py-2 bg-[#EEFCDF]">SHOW ME THE RANGE</button>
-                </div>
-               </div>
-            </div>
-            <div class=" bg-[#dddddd] p-5 rounded-2xl">
-                <img class="max-h-[350px] w-full mb-4 rounded-2xl" src="assets/pic-2.webp" alt="">
-               <div class="space-y-3">
-                <h1 class="text-4xl text-black font-bold">Acreage Buildings</h1>
-                <h3 class="text-3xl text-black font-medium">Unlock your property’s potential</h3>
-                <p class="text-xl text-gray-500">Our creative customers have transformed their Melwood garden rooms into everything from tiny homes, granny flat or guest accommodation, pool cabanas, art studios, workshops, home offices, teen or parent retreats, laundries and so much more.
-                What would you do?</p>
-                <div class="flex justify-center ">
-                    <button class="rounded-3xl px-5 py-2 bg-[#EEFCDF]">SHOW ME THE RANGE</button>
-                </div>
-               </div>
-            </div>
+            <p class="text-xl text-gray-500 text-center">From garden rooms and studios to rural barns and cottages, we
+                have a range of <br> nominal designs to suit every need, purpose and vision. </p>
 
-            <div class=" bg-[#dddddd] p-5 rounded-2xl">
-                <img class="max-h-[350px] w-full mb-4 rounded-2xl" src="assets/Rectangle.png" alt="">
-               <div class="space-y-3">
-                <h1 class="text-4xl text-black font-bold">Garden Buildings</h1>
-                <h3 class="text-3xl text-black font-medium">The extra space you dream of</h3>
-                <p class="text-xl text-gray-500">Our creative customers have transformed their Melwood garden rooms into everything from tiny homes, granny flat or guest accommodation, pool cabanas, art studios, workshops, home offices, teen or parent retreats, laundries and so much more.
-                What would you do?</p>
-                <div class="flex justify-center ">
-                    <button class="rounded-3xl px-5 py-2 bg-[#EEFCDF]">SHOW ME THE RANGE</button>
+            <div class="flex flex-col lg:flex-row pt-6  gap-5">
+                <div class=" bg-[#dddddd] p-5 rounded-2xl">
+                    <img class="max-h-[350px] w-full mb-4 rounded-2xl" src="assets/pic-1.webp" alt="">
+                    <div class="space-y-3">
+                        <h1 class="text-4xl text-black font-bold">Garden Buildings</h1>
+                        <h3 class="text-3xl text-black font-medium">The extra space you dream of</h3>
+                        <p class="text-xl text-gray-500">Our creative customers have transformed their Melwood garden
+                            rooms into everything from tiny homes, granny flat or guest accommodation, pool cabanas, art
+                            studios, workshops, home offices, teen or parent retreats, laundries and so much more.
+                            What would you do?</p>
+                        <div class="flex justify-center ">
+                            <button class="rounded-3xl px-5 py-2 bg-[#EEFCDF]">SHOW ME THE RANGE</button>
+                        </div>
+                    </div>
                 </div>
-               </div>
+                <div class=" bg-[#dddddd] p-5 rounded-2xl">
+                    <img class="max-h-[350px] w-full mb-4 rounded-2xl" src="assets/pic-2.webp" alt="">
+                    <div class="space-y-3">
+                        <h1 class="text-4xl text-black font-bold">Acreage Buildings</h1>
+                        <h3 class="text-3xl text-black font-medium">Unlock your property’s potential</h3>
+                        <p class="text-xl text-gray-500">Our creative customers have transformed their Melwood garden
+                            rooms into everything from tiny homes, granny flat or guest accommodation, pool cabanas, art
+                            studios, workshops, home offices, teen or parent retreats, laundries and so much more.
+                            What would you do?</p>
+                        <div class="flex justify-center ">
+                            <button class="rounded-3xl px-5 py-2 bg-[#EEFCDF]">SHOW ME THE RANGE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" bg-[#dddddd] p-5 rounded-2xl">
+                    <img class="max-h-[350px] w-full mb-4 rounded-2xl" src="assets/Rectangle.png" alt="">
+                    <div class="space-y-3">
+                        <h1 class="text-4xl text-black font-bold">Garden Buildings</h1>
+                        <h3 class="text-3xl text-black font-medium">The extra space you dream of</h3>
+                        <p class="text-xl text-gray-500">Our creative customers have transformed their Melwood garden
+                            rooms into everything from tiny homes, granny flat or guest accommodation, pool cabanas, art
+                            studios, workshops, home offices, teen or parent retreats, laundries and so much more.
+                            What would you do?</p>
+                        <div class="flex justify-center ">
+                            <button class="rounded-3xl px-5 py-2 bg-[#EEFCDF]">SHOW ME THE RANGE</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-           </div>
-          </section>
+        </section>
 
 
-          <!-- section-07 -->
-           <section class="bg-[url('assets/bg.jpg')] bg-cover bg-center p-4 lg:px-28 lg:py-20 space-y-6 ">
+        <!-- section-07 -->
+        <section class="bg-[url('assets/bg.jpg')] bg-cover bg-center p-4 lg:px-28 lg:py-20 space-y-6 ">
             <div class="flex justify-center ">
-                <button class="rounded-3xl px-5 py-1 bg-white">Let’s Connect</button>
+                <button class="rounded-3xl px-5 py-1 bg-white"><i class="fa-solid fa-arrow-right-long"></i> Let’s
+                    Connect</button>
             </div>
             <h1 class="text-4xl text-black text-center font-bold">Let’s Discuss Next Project</h1>
-            <p class="text-xl text-gray-500 text-center">The barn house captivates with its blend of rustic charm and modern <br>sophistication, featuring weathered wood, sleek metal accents.</p>
+            <p class="text-xl text-gray-500 text-center">The barn house captivates with its blend of rustic charm and
+                modern <br>sophistication, featuring weathered wood, sleek metal accents.</p>
 
-           <form class="max-w-[500px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5" action="">
-            <input class="px-5 py-3 rounded-3xl bg-white" type="text" placeholder="First Name:">
-            <input class="px-5 py-3 rounded-3xl bg-white" type="text" placeholder="Last Name:">
-            <input class="px-5 py-3 rounded-3xl bg-white" type="text" placeholder="Your Phone:">
-            <input class="px-5 py-3 rounded-3xl bg-white" type="text" placeholder="Your Email:">
-            <textarea class="lg:w-[500px] px-5 py-3 rounded-3xl bg-white" name="" id="" cols="20" rows="6">Write your message here</textarea>
-           </form>
-           <div class="flex justify-center">
-            <button class="w-full px-5 py-2 rounded-3xl  max-w-[500px] bg-[#99e443] text-white">Send Mail</button>
-           </div>
-           
-           
-           </section>
+            <form class="max-w-[500px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5" action="">
+                <input class="px-5 py-3 rounded-3xl bg-white" type="text" placeholder="First Name:">
+                <input class="px-5 py-3 rounded-3xl bg-white" type="text" placeholder="Last Name:">
+                <input class="px-5 py-3 rounded-3xl bg-white" type="text" placeholder="Your Phone:">
+                <input class="px-5 py-3 rounded-3xl bg-white" type="text" placeholder="Your Email:">
+                <textarea class="lg:w-[500px] px-5 py-3 rounded-3xl bg-white" name="" id="" cols="20"
+                    rows="6">Write your message here</textarea>
+            </form>
+            <div class="flex justify-center">
+                <button class="w-full px-5 py-2 rounded-3xl  max-w-[500px] bg-[#99e443] text-white">Send Mail <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
 
 
-           <!-- footer section -->
-            <footer class="max-w-[1440px] mx-auto space-y-6 px-5 py-10 lg:py-20">
-               
-                    <h3 class="text-4xl text-white font-bold  text-center " >Rinterio</h3>
-                <p class="text-xl text-gray-500   text-center" >The barn house captivates with its blend of rustic charm and modern <br>sophistication, featuring weathered wood, sleek metal accents.</p>
+        </section>
 
-               <div class="flex justify-center">
+
+        <!-- footer section -->
+        <footer class="max-w-[1440px] mx-auto space-y-6 px-5 py-10 lg:py-20">
+
+            <h3 class="text-4xl text-white font-bold  text-center "><i class="fa-solid fa-arrow-right-long"></i>  Rinterio</h3>
+            <p class="text-xl text-gray-500   text-center">The barn house captivates with its blend of rustic charm and
+                modern <br>sophistication, featuring weathered wood, sleek metal accents.</p>
+
+            <div class="flex justify-center">
                 <ul class="flex flex-col lg:flex-row gap-8 text-xl text-center mx-auto  text-gray-500">
                     <li><a href="">Home</a></li>
                     <li><a href="">Services</a></li>
@@ -381,14 +410,14 @@
                     <li><a href="">Blog</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-               </div>
-
-               <div class="flex justify-center ">
-                <button class="rounded-3xl px-5 py-1 text-black bg-[#99e443]">Book Consult</button>
             </div>
-               
-                
-            </footer>
+
+            <div class="flex justify-center ">
+                <button class="rounded-3xl px-5 py-1 text-black bg-[#99e443]">Book Consult <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+
+
+        </footer>
 
     </main>
 
